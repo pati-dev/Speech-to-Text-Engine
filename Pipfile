@@ -1,0 +1,13 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+# prediction-engine = {version = "~=0.0.1"}
+
+[packages]
+# Points to setup.cfg
+sp2txt = {editable = true, path  = "."}
+
+[requires]
